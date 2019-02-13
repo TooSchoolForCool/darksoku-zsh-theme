@@ -66,7 +66,7 @@ ZSH_THEME_GIT_PROMPT_CLEAN="$YS_VCS_PROMPT_CLEAN"
 
 # Prompt format: # DIRECTORY [GIT_BRANCH STATE GIT_SHA] [TIME] \n ➜
 PROMPT="%{$terminfo[bold]$fg[blue]%}#%{$reset_color%} \
-$username_output$hostname_output:\
+$username_output$hostname_output: \
 %{$terminfo[bold]$fg[yellow]%}${current_dir} %{$reset_color%}\
 ${git_info}\
 %{$fg[white]%}[%*]

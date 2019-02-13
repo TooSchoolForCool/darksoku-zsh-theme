@@ -22,8 +22,8 @@ prompt_dir() {
   # only print current working directory
   # dir '%1~'
 
-  # print nearly 5-level working directory
-  dir '%5~'
+  # print nearly 3-level working directory
+  dir '%3~'
 
   # show absolute working directory
   # dir '%~'

@@ -16,6 +16,6 @@ $ git clone https://github.com/TooSchoolForCool/darksoku-zsh-theme.git
 
 #### Theme
 
-1. Copy `darksoku.zsh-theme` file into the `~/.oh-my-zsh/themes/` directory.
+1. Run the installation script `./install.sh` or `sh install.sh`
 2. Change the theme variable name to `ZSH_THEME="darksoku"` in `~/.zshrc`
 3. Reload ZSH with `source ~/.zshrc`
